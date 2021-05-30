@@ -6,17 +6,29 @@
   
 ## Parameters
   -i, --infile: In file. I.E. The file to work with.
+  
   -o (lowercase letter o), --outname: The name of the output file.
+  
   -f, --format: The type of desired output (video or images(s)). Case insensitive.
+  
       Option: \"image\" For a single image.
+  
       Option: \"book\" For one image per second until either -l or end-of-file.
+  
       Option: \"video\" To return a sub-length of the file from either 0 or -s and -l or end-of-file.
+  
   -s, --start: The offset to begin taking image(s) or start video. This is an integer value in seconds.
+  
   -l  (lowercase letter l), --length: The length of images or video to take in seconds. This value is ignored for single images."
+  
   -d, --destination: The destination directory for the output file.
+  
   -q, --quality: Image output will be in PNG instead of JPEG. Creates larger files but preserves quality. Ignored by the \"video\" option.
+  
   -c, --compress: Compress output into single file. Currently only supports tar.gz format and only used with the \"book\" option.
+  
   -v, --verbose: Verbose mode. Prints to stdout and stderr. Default is to not print to stdout or stderr.
+  
   -h, --help: Help. Prints this information to stdout and exits. All other flags will be ignored.
   
 ## Examples:
