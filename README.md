@@ -33,19 +33,25 @@
   
 ## Examples:
   One image at the 12th second of video. Use png instead of jpg.
+  
       ./snip.sh -i ./in_file.mp4 -o output_name -f image -s 12 -q
   
   A set of images, one at each second, starting at the 5th second and continuing for 3 seconds. Show output.
+  
       ./snip.sh -i ./in_file.mp4 -o output_name -f book -s 5 -l 3 -v
   
   A set of images, one at each second, starting at the 4th second and continuing for 4 seconds. Compress to output_name.tar.gz.
+  
       ./snip.sh -i ./in_file.mp4 -o output_name -f book -s 4 -l 4 -c
   
   A video starting at the beginning and lasting for 6 seconds.
+  
       ./snip.sh -i ./in_file.mp4 -o output_name -f video -l 6
   
   A video with the first 7 seconds removed. The output file will be put in the users home directory.
+  
       ./snip.sh -i ./in_file.mp4 -o output_name -f video -s 8 -d
   
   A video starting at the 1st second and lasting for 2 seconds.
+  
       ./snip.sh -i ./in_file.mp4 -o output_name -f video -s 1 -l 2
